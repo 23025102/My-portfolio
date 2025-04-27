@@ -1,0 +1,207 @@
+*{
+margin:0;
+padding:2px;
+}
+
+HTML {
+    scroll-behavior: smooth;
+}
+
+BODY{
+  
+  background-color: black;
+  margin-bottom:0px;
+font-family: Geneva, Arial;
+}
+
+span {
+     color:purple;  
+ }
+
+NAV {
+
+         float: right;
+         font-family: Geneva, Arial;
+         border: 2px;
+     
+}
+
+NAV UL LI {  
+            margin-right: 20px;
+            list-style-type: none;  
+            display:inline-block; 
+}        
+NAV UL LI A {       
+         text-decoration:none;
+         color:white;
+          font-size:20px;
+                                          
+}
+
+NAV A:hover  { 
+           
+           background-color:purple; 
+           text-decoration: underline;
+}
+
+.first {  
+      color:white;
+       text-decoration:none;
+        font-weight:bold;
+}
+
+
+
+  /*---------------home-----------------*/ 
+
+
+
+.home_style  {
+            float:left;
+            margin-left:150px;
+            width:600px;
+            height:90px;
+            margin-top:110px; 
+            color:white;
+            border:0px solid purple; 
+            font-size: 2.5em;
+}
+
+
+.profile-photo {
+    width: 750px;
+    height: 480px; 
+   margin-bottom:3px; 
+    margin-left:700px;
+    margin-top:0px;
+   
+    
+}
+
+/* -------------------about---------------------- */
+
+.about_style  {
+            float:right;
+            width:511px;
+            height:10px;
+           margin-top: 100px; 
+            color:white;
+           font-size:1.1em;                                         
+ }
+
+.img {     
+     float:left;
+     width:600px;                      
+     height:600px;
+     
+}
+/*----------------project------------*/
+.proj  {
+            color:white;
+            float:right;
+            width:900px;
+            height:300px;
+            margin-left:0px ;
+            margin-top:60px;
+             font-size:1.3em;
+
+}
+
+
+/*--------------------contacts-----------------*/
+.contact_style  {
+            float:right;
+            margin-right:10em;
+            width:530px;
+            height:300px;
+           margin-top:10em; 
+           color:white;
+           border: 1px solid purple;
+         
+
+}
+.contact-info {
+    padding: 2em;
+    text-align: center;
+   
+}
+
+
+.contact-info p {
+ 
+    font-size:1.5em;
+    margin-bottom:1em;
+}
+
+.contact-info  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color:purple;
+    text-decoration: underline;
+}
+/*..............................responsive.....................*/
+@media only screen and (max-width: 1200px) {
+.profile-photo {
+width:90%;
+height:200px;
+margin-left:60px;
+margin-top:1px;
+}
+.home_style {
+           margin-left:5px;
+            width:100%;
+            height:100px;
+            margin-top:60px;
+            font-size:1em;
+}
+NAV UL LI {  
+            margin-right: 1px;
+            padding:2px 2px;
+}
+NAV UL LI A {       
+          font-size:8px;                                         
+}
+.about_style  {
+            float:right;
+            margin: 0px;
+            width:70%;
+            height:5px;
+            top:60px; 
+            color:white; 
+             font-size:0.03em;                                                
+ }
+
+.img {     
+     float:left;
+     margin-left: 0px;
+     width:25%;                      
+     height:150px;
+     margin-top:90px;
+}
+.proj  {
+            color:white;
+            width:90%;
+            height:50px;
+            margin:0px ;
+            margin-top:20px;
+            font-size:0.5em;
+}
+.contact_style  {
+            margin-right:3em;
+            width:70%;
+            height:150px;
+           margin-top:2em;       
+}
+.contact-info p {
+ 
+    font-size: 0.5em;
+    margin-bottom:1em;    
+}    
+     
+
+}
+                                                         
